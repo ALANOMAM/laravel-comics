@@ -14,12 +14,12 @@
         <!--includo il patial header-->
         @include('partials/header')
      
-        <main>
-            
+        
+
          <!--predo il contenuto del file home-->
          @yield("content")
 
-        </main>
+        
        
         <!--includo il patial footer-->
         @include('partials/footer')
